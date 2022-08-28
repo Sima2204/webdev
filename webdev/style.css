@@ -168,11 +168,15 @@
   .intro_subtitle {
     height: 50px;
     margin: 20px 279px 30px 279px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
+    text-align: center;
   }
 
   .button_get-started {
@@ -209,3 +213,69 @@
   }
 
   /* intro styles end */
+
+  /* program styles start */
+
+  .idea_wrapper {
+    margin-top: 120px;
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .idea-text {
+    margin-top: 175px;
+    width: 407px;
+  }
+
+  .idea_title {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+  }
+
+  .idea_subtitle {
+    margin-bottom: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+  }
+
+  .button_idea-get-started {
+    padding: 15px 47px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #00AFDB;
+    border: 0;
+    cursor: pointer;
+  }
+
+  .button_idea-get-started:hover, .button_idea-get-started:focus, .button_idea-get-started:active {
+    opacity: 1.5;
+    background: #037692;
+    color: #93b5e0;
+  }
+
+  .idea-image {
+    width: 407px;
+    height: 582px;
+    background: url(/assets/img/program.png) no-repeat center;
+    background-size: cover;
+  }
+
+  /* program styles end */
