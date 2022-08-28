@@ -139,9 +139,9 @@
 
   /* header styles end */
 
-  /* intro styles start */
+  /* your-life styles start */
 
-  .intro {
+  .your-life {
     height: 744px;
     background: url(./assets/img/bg-image.png) no-repeat center;
     background-size: cover;
@@ -152,7 +152,7 @@
     /* from now width will be 1062px */
   }
 
-  .intro_title {
+  .your-life-title {
     padding-top: 230px;
     display: flex;
     justify-content: center;
@@ -166,7 +166,7 @@
     color: #FFFFFF;
   }
 
-  .intro_subtitle {
+  .your-life-subtitle {
     height: 50px;
     margin: 20px 279px 30px 279px;
     display: flex;
@@ -213,23 +213,23 @@
     cursor: pointer;
   }
 
-  /* intro styles end */
+  /* your-life styles end */
 
-  /* program styles start */
+  /* rappresent styles start */
 
-  .idea_wrapper {
+  .rappresent_wrapper {
     margin-top: 120px;
     margin-bottom: 140px;
     display: flex;
     justify-content: space-between;
   }
 
-  .idea-text {
+  .rappresent-text {
     margin-top: 175px;
     width: 407px;
   }
 
-  .idea_title {
+  .rappresent-title {
     margin-right: 20px;
     margin-bottom: 20px;
     font-family: 'Roboto';
@@ -242,7 +242,7 @@
     color: #373737;
   }
 
-  .idea_subtitle {
+  .rappresent-subtitle {
     margin-bottom: 30px;
     font-family: 'Roboto';
     font-style: normal;
@@ -252,7 +252,7 @@
     color: #4E4E4E;
   }
 
-  .button_idea-get-started {
+  .button_rappresent-get-started {
     padding: 15px 47px;
     text-transform: uppercase;
     font-family: 'Roboto';
@@ -266,20 +266,20 @@
     cursor: pointer;
   }
 
-  .button_idea-get-started:hover, .button_idea-get-started:focus, .button_idea-get-started:active {
+  .button_rappresent-get-started:hover, .button_rappresent-get-started:focus, .button_rappresent-get-started:active {
     opacity: 1.5;
     background: #037692;
     color: #93b5e0;
   }
 
-  .idea-image {
+  .rappresent-image {
     width: 407px;
     height: 582px;
     background: url(/assets/img/program.png) no-repeat center;
     background-size: cover;
   }
 
-  /* program styles end */
+  /* rappresent styles end */
   
   /* community styles start */
 
