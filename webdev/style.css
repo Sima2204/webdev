@@ -383,10 +383,6 @@
 
   /* implement styles start */
 
-  .implement {
-    height: 842px;
-  }
-
   .implement-wrapper {
     margin-top: 120px;
     margin-bottom: 140px;
@@ -451,3 +447,73 @@
   }
 
   /* implement styles end */
+
+  /* sign up block start */
+
+  .sign-up {
+    width: 1600px;
+    height: 524px;
+    background: url(/assets/img/signup-bg.png) no-repeat center;
+    background-size: cover;
+  }
+
+  .sign-up_wrapper {
+    padding: 200px 597px 220px 597px;
+  }
+
+  .preview_search-wrapper {
+    border: 0;
+    display: flex;
+  }
+
+  .sign-ip-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;  
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .enter-form {
+    padding-left: 24px;
+    width: 340px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #373737;
+  }
+
+  .newsletter-form_submit {
+    width: 66px;
+    height: 46px;    
+    background: #00AFDB;
+    border: 0;
+  }
+
+  .check {
+    padding: 16px 24.48px 16.78px 25px;
+  }
+
+  .newsletter-form_submit:hover, .newsletter-form_submit:focus, .newsletter-form_submit:active {
+    opacity: 1.5;
+    background: #037692;
+    color: #93b5e0;
+  }
+
+  /* sign up block end */
+
+  /* download block start */
+
+  
+
+  /* download block start */
