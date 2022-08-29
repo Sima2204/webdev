@@ -274,7 +274,7 @@
   .rappresent-image {
     width: 407px;
     height: 582px;
-    background: url(/assets/img/program.png) no-repeat center;
+    background: url(./assets/img/program.png) no-repeat center;
     background-size: cover;
   }
 
@@ -395,7 +395,7 @@
   .implement-image {
     width: 407px;
     height: 582px;
-    background: url(/assets/img/implement.png) no-repeat center;
+    background: url(./assets/img/implement.png) no-repeat center;
     background-size: cover;
   }
 
@@ -453,7 +453,7 @@
   .sign-up {
     width: 1600px;
     height: 524px;
-    background: url(/assets/img/signup-bg.png) no-repeat center;
+    background: url(./assets/img/signup-bg.png) no-repeat center;
     background-size: cover;
   }
 
