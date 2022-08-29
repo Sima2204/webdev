@@ -208,7 +208,6 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-
     list-style-type: none;
     cursor: pointer;
   }
@@ -283,6 +282,96 @@
   
   /* our-community styles start */
 
-  
+  .our-community {
+    overflow: hidden;
+    height: 504px;
+    background: #F5F6F7;
+  }
 
-  /* our-community styles start */
+  .arrows-menu {
+    padding-top: 82px;
+    padding-left: 78%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 20px;
+  }
+
+  .arrow-left, .arrow-right {
+    padding-top: 2px;
+    border: 0;
+    cursor: pointer;
+    background: none;
+  }
+
+  .pagination {
+    background: none;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    gap: 4px;
+  }
+
+  .current-photo, .slash, .last-photo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #373737;
+  }
+
+  .community-wrapper {
+    padding-left: 269px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 139px;
+    margin-bottom: 140px;
+  }
+
+  .community-info {
+    height: 175px;
+    min-width: 298px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .user {
+    padding-left: 127px;
+    background: none;
+    margin-bottom: 20px;
+  }
+
+  .community-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .community-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+    text-align: center;
+  }
+
+  .community-photo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  /* our-community styles end */
