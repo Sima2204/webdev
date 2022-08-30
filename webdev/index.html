@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebDev</title>
     <link rel="favicon" href="./assets/svg/logo.svg">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header class="header">
@@ -135,7 +135,6 @@
                         </p>
                         <button type="submit" class="button-implement-learn-more">learn more</button>
                     </div>
-                    
                 </div>
             </div>
 
@@ -147,7 +146,7 @@
                 </h2>
                 <form class="newsletter">
                     <fieldset class="preview_search-wrapper">
-                        <input type="text" name="enter-your-email" class="enter-form" placeholder="E-mail">
+                        <input type="email" name="enter-your-email" class="enter-form" placeholder="E-mail">
                         <button type="submit" class="newsletter-form_submit">
                             <img src="./assets/svg/check-icon.svg" alt="check-confirm-pic" class="check">
                         </button>
@@ -156,9 +155,50 @@
             </div>
         </section>
         <section class="download">
-            
+            <div class="download-text">
+                <h2 class="download-title">
+                    Download the App
+                </h2>
+                <p class="download-subtitle">
+                    Machine code was the language of early programs, written in the instruction set of the particular machine, often in binary notation.
+                </p>
+            </div>  
+            <div class="download-buttons">
+                <button type="submit" class="download-appstore">
+                    <div class="appstore-name">apple store</div>
+                    <img src="./assets/svg/icon-apple.svg" alt="apple-logo-btn" class="appstore-logo"></img>
+                </button>
+                <button type="submit" class="download-playmarket">
+                    <div class="playmarket-name">play market</div>
+                    <img src="./assets/svg/icon-android.svg" alt="android-logo-btn" class="android-logo"></img>
+                </button>
+            </div>      
         </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-links">
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="#!" class="footer-link">Credits</a>
+                    </li>
+                    <img src="./assets/svg/mnu-items-divider.svg" alt="divider-item" class="divider">
+                    <li class="footer-item">
+                        <a href="#!" class="footer-link">Privacy</a>
+                    </li>
+                    <img src="./assets/svg/mnu-items-divider.svg" alt="divider-item" class="divider">
+                    <li class="footer-item">
+                        <a href="#!" class="footer-link">Our teams</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-logo">
+                <img src="./assets/svg/logo.svg" alt="footer-logo-picture" class="footer-logo-pic">
+            </div>
+            <div class="footer-text">
+                <p class="footer-info">by TonYem for RSS at 2020</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
