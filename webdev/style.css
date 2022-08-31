@@ -312,7 +312,7 @@
   }
 
   .arrow-left:hover, .arrow-left:focus, .arrow-left:active, .arrow-right:hover, .arrow-right:focus, .arrow-right:active {
-    background-color: #e4d7d7;
+    opacity: .5;
   }
 
   .pagination {
