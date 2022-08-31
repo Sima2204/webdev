@@ -503,6 +503,7 @@
     height: 46px;    
     background: #00AFDB;
     border: 0;
+    cursor: pointer;
   }
 
   .check {
@@ -656,6 +657,7 @@
     display: inline;
     white-space: nowrap;
   }
+
   .footer-link-1, .footer-link-2, .footer-link-3 {
     text-decoration: none;
     color: #FFFFFF;
@@ -687,7 +689,7 @@
     color: #818181;
   }
 
-  .footer-link:hover, .footer-link:active, .footer-link.focus {
+  .footer-link-1:hover, .footer-link-1:active, .footer-link-1.focus,   .footer-link-2:hover, .footer-link-2:active, .footer-link-2.focus, .footer-link-3:hover, .footer-link-3:active, .footer-link-3.focus {
     opacity: 0.5;
     color: #00AFDB;
     text-decoration: underline;
